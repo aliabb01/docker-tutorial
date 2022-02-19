@@ -4,22 +4,22 @@
 ```docker build -t <imagename>```
 
 ### Docker list images
-<code>docker images</code>
+```docker images```
 
 ### Docker run image on container
-<code>```docker run --name <containername> <imagename>```</code>
+```docker run --name <containername> <imagename>```
 
 ### Docker run image on container and expose port to local machine (optional: -d flag to not block terminal)
-<code>```docker run --name <containername> -p 4000:4000 -d <imagename>```</code>
+```docker run --name <containername> -p 4000:4000 -d <imagename>```
 
 ### Docker show currently running containers
-<code>```docker ps```</code>
+```docker ps```
 
 ### Docker show all containers
-<code>```docker ps -a```</code>
+```docker ps -a```
 
 ### Docker start a container
-<code>```docker start <containername>```</code>
+```docker start <containername>```
 
 ### Docker stop a container
-<code>```docker stop <containername>```</code>
+```docker stop <containername>```
