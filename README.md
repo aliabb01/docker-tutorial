@@ -1,10 +1,10 @@
 ## List of useful commands:
 
 ### Docker build
-<code>```docker build -t <imagename>```</code>
+```docker build -t <imagename>```
 
 ### Docker list images
-<code>```docker images```</code>
+<code>docker images</code>
 
 ### Docker run image on container
 <code>```docker run --name <containername> <imagename>```</code>
